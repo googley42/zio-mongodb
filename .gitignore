@@ -1,0 +1,6 @@
+.tags
+.idea/
+.metals/
+.bloop/
+project/target
+target/
