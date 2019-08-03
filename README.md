@@ -1,7 +1,8 @@
 # zio-mongodb
 
-A ZIO port of an fs2/cats-effect MongDB streaming project,  primarily so that I could explore the ZIO async effect and 
-streaming APIs. It's based on the old MongoDB async Java client [here](https://github.com/fiadliel/fs2-mongodb).
+A ZIO port of an [fs2/cats-effect MongDB streaming project](https://github.com/fiadliel/fs2-mongodb), primarily so that 
+I could explore the ZIO async effect and streaming APIs. It's based on the old MongoDB async Java client 
+[here](https://github.com/fiadliel/fs2-mongodb).
 
 Note the [MongoDB async java client](https://mongodb.github.io/mongo-java-driver/) has been deprecated in favour
 of the new [Reactive Streams based driver](https://mongodb.github.io/mongo-java-driver/) - so a more robust approach
